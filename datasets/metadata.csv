@@ -1,0 +1,40 @@
+,Column,Sample record,Description
+0,IncidentNumber,000008-01012018,LFB Incident Number
+1,DateOfCall,2018-01-01 00:00:00,Date of 999 call
+2,CalYear,2018,Year of 999 call
+3,TimeOfCall,00:04:25,Time of 999 call
+4,HourOfCall,0,Hour of 999 call
+5,IncidentGroup,False Alarm,High level incident category
+6,StopCodeDescription,AFA,Detailed incident category
+7,SpecialServiceType,,Further detail for special services incident categories
+8,PropertyCategory,Non Residential,High level property descriptor
+9,PropertyType,Mosque ,Detailed property descriptor
+10,AddressQualifier,Within same building,Qualifies location of actual incident relevant to category above
+11,Postcode_full,N2 8AY,Postcode
+12,Postcode_district,N2,Postcode Districs
+13,UPRN,200220110,Unique Property Reference Number
+14,USRN,20013420,Unique Street Reference Number
+15,IncGeo_BoroughCode,E09000003,Borough Code
+16,IncGeo_BoroughName,BARNET,Borough Name
+17,ProperCase,Barnet,Borough Name
+18,IncGeo_WardCode,E05000049,Ward Code
+19,IncGeo_WardName,EAST FINCHLEY,Ward Name
+20,IncGeo_WardNameNew,EAST FINCHLEY,New Ward Name
+21,Easting_m,527184,Easting
+22,Northing_m,189488,Northing
+23,Easting_rounded,527150,Easting rounded up to nearest 50
+24,Northing_rounded,189450,Northing rounded up to nearest 50
+25,Latitude,51.58990022,Latitude
+26,Longitude,-0.165452578,Longitude
+27,FRS,London,Fire Service ground
+28,IncidentStationGround,Finchley,LFB Station ground
+29,FirstPumpArriving_AttendanceTime,348,First Pump attendance time in seconds
+30,FirstPumpArriving_DeployedFromStation,Finchley,First Pump deployed from station
+31,SecondPumpArriving_AttendanceTime,,Second Pump attendance time in seconds
+32,SecondPumpArriving_DeployedFromStation,,Second Pump deployed from station
+33,NumStationsWithPumpsAttending,1,Number of stations with pumps in attendance
+34,NumPumpsAttending,1,Number of pumps in attendance
+35,PumpCount,1,Pump count
+36,PumpHoursRoundUp,1,"Time spent at incident by pumps, rounded up to nearest hour"
+37,Notional Cost (£),328,Time spent multiplied by notional annual cost of a pump
+38,NumCalls,1,Number of 999 calls made for an incident
