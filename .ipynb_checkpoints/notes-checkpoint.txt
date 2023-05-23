@@ -1,0 +1,81 @@
+IncidentNumber				000008-01012018	LFB Incident Number	
+DateOfCall				01 Jan 18		Date of 999 call	
+CalYear				2018			Year of 999 call	
+TimeOfCall				00:04:25		Time of 999 call	
+HourOfCall				0			Hour of 999 call	
+IncidentGroup				False Alarm		High level incident category	
+StopCodeDescription			AFA			Detailed incident category	
+SpecialServiceType						Further detail for special services incident categories	
+PropertyCategory			Non Residential	High level property descriptor	
+PropertyType				Mosque 		Detailed property descriptor	
+AddressQualifier			Within same building	Qualifies location of actual incident relevant to category above	
+Postcode_full				N2 8AY			Postcode				-> redacted for Dwellings
+Postcode_district			N2			Postcode Districs	
+UPRN					200220110		Unique Property Reference Number	-> redacted for Dwellings
+USRN					20013420		Unique Street Reference Number	
+IncGeo_BoroughCode			E09000003		Borough Code	
+IncGeo_BoroughName			BARNET			Borough Name	
+ProperCase				Barnet			Borough Name	
+IncGeo_WardCode			E05000049		Ward Code	
+IncGeo_WardName			EAST FINCHLEY		Ward Name	
+IncGeo_WardNameNew			EAST FINCHLEY		New Ward Name	
+Easting_m				527184			Easting				-> redacted for Dwellings
+Northing_m				189488			Northing				-> redacted for Dwellings
+Easting_rounded			527150			Easting rounded up to nearest 50	
+Northing_rounded			189450			Northing rounded up to nearest 50	
+Latitude				51.58990022		Latitude				-> redacted for Dwellings
+Longitude				-0.165452578		Longitude				-> redacted for Dwellings
+FRS					London			Fire Service ground	
+IncidentStationGround			Finchley		LFB Station ground	
+FirstPumpArriving_AttendanceTime	348			First Pump attendance time in seconds	
+FirstPumpArriving_DeployedFromStation	Finchley		First Pump deployed from station	
+SecondPumpArriving_AttendanceTime				Second Pump attendance time in seconds	
+SecondPumpArriving_DeployedFromStation			Second Pump deployed from station	
+NumStationsWithPumpsAttending		1			Number of stations with pumps in attendance	
+NumPumpsAttending			1			Number of pumps in attendance	
+PumpCount				1			Pump count	
+PumpHoursRoundUp			1			Time spent at incident by pumps, rounded up to nearest hour	
+Notional Cost (£)			328			Time spent multiplied by notional annual cost of a pump	
+NumCalls				1			Number of 999 calls made for an incident	
+
+
+1. Identify the most common types of incidents attended by LFB and their frequency in each year. This analysis could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents
+2. Analyze the response times of LFB and identify the factors that contribute to the delay in response. This analysis could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties
+3. Identify the locations with the highest frequency of incidents and analyze the reasons for this trend. This analysis could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in these areas
+4. Analyze the incidents attended by LFB and identify any trends or patterns that could help them to predict the likelihood of a particular type of incident occurring in the future. This analysis could help LFB to take proactive measures to prevent or mitigate the impact of such incidents
+
+Solution
+1. Clustering analysis: Perform clustering analysis to identify the most common types of incidents attended by LFB and their frequency in each year. This could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents.
+        ◦ Variables: Incident type, year, frequency of incidents
+        ◦ Analysis: Cluster analysis to group similar incidents based on their frequency and years and identify the most common types of incidents attended by LFB.
+2. Regression analysis: Perform regression analysis to identify the factors that contribute to the delay in response of LFB. This could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties
+        ◦ Variables: Response time, location, incident type, weather condition, time of day, number of firefighters deployed
+        ◦ Analysis: Regression analysis to identify the factors that contribute to the delay in response of LFB
+3. Association rule mining: Perform association rule mining to identify the locations with the highest frequency of incidents and analyze the reasons for this trend. This could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in these areas
+        ◦ Variables: Incident location, incident type, weather condition, time of day, season
+        ◦ Analysis: Association rule mining to identify the patterns and relationships between the variables and the frequency of incidents in different locations
+4. Time series analysis: Perform time series analysis to identify any trends or patterns in the incidents attended by LFB, which could help them to predict the likelihood of a particular type of incident occurring in the future. This could help LFB to take proactive measures to prevent or mitigate the impact of such incidents
+        ◦ Variables: Incident type, year, month, week, day, hour
+        ◦ Analysis: Time series analysis to identify any trends or patterns in the incidents attended by LFB, and predict the likelihood of a particular type of incident occurring in the future
+
+
+
+1. Business Understanding and Data Understanding: Exceptionally clear and concise analysis of business concerns and relevant data mining tasks. Excellent and creative initial data exploration with effective means.
+
+2. Data Pre-processing: Thorough and extensive consideration of data quality issues. Appropriate approaches adopted with Exceptionally clear understanding. Excellent use of the relevant Python packages.
+
+3. Model Construction: Appropriate algorithms employed with Exceptionally clear outstanding understanding. Modelling with excellent working knowledge of the relevant Python packages.
+
+4. Model Evaluation: Exceptionally thorough and clear model interpretation and comparison with regards to business concerns. Excellent and meaningful models/patterns created.
+
+5. Report: Exceptionally clear and concise summary of project findings. May raise questions for future research. Exceptional outstanding presentation. Clear structure and layout.
+
+
+
+
+
+
+
+
+
+

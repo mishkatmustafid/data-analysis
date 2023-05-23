@@ -1,0 +1,106 @@
+IncidentNumber						000008-01012018		LFB Incident Number						object
+DateOfCall						01 Jan 2019		Date of call							datetime64[ns]
+CalYear							2018			Year of call							int64
+TimeOfCall						00:04:25		Time of call							object
+HourOfCall						0			Hour of call							int64
+IncidentGroup						False Alarm		High level incident category					object
+StopCodeDescription					AFA			Detailed incident category					object
+SpecialServiceType				3887				Further detail for special services incident categories		object
+PropertyCategory					Non Residential		High level property descriptor					object
+PropertyType						Mosque 			Detailed property descriptor					object
+AddressQualifier					Within same building	Qualifies location of actual incident relevant to category above	object
+Postcode_full					4238	N2 8AY			Postcode		-> redacted for Dwellings		object
+Postcode_district					N2			Postcode Districs						object
+UPRN							200220110		Unique Property Reference Number -> redacted for Dwellings	int64
+USRN							20013420		Unique Street Reference Number					int64
+IncGeo_WardCode						E05000049		Ward Code							object
+IncGeo_WardName						EAST FINCHLEY		Ward Name							object
+IncGeo_WardNameNew					EAST FINCHLEY		New Ward Name							object
+Easting_m					4238	527184			Easting			-> redacted for Dwellings		float64
+Northing_m					4238	189488			Northing		-> redacted for Dwellings		float64
+Easting_rounded						527150			Easting rounded up to nearest 50					int64
+Northing_rounded					189450			Northing rounded up to nearest 50				int64
+Latitude					4238	51.58990022		Latitude		-> redacted for Dwellings		float64
+Longitude					4238	-0.165452578		Longitude		-> redacted for Dwellings		float64
+IncidentStationGround					Finchley		LFB Station ground						object
+FirstPumpArriving_AttendanceTime			11395	348			First Pump attendance time in seconds				float64
+FirstPumpArriving_DeployedFromStation		11394	Finchley		First Pump deployed from station					object
+SecondPumpArriving_AttendanceTime		5471				Second Pump attendance time in seconds				float64
+SecondPumpArriving_DeployedFromStation		5471				Second Pump deployed from station				object
+NumStationsWithPumpsAttending			11853	1			Number of stations with pumps in attendance			float64
+NumPumpsAttending				11853	1			Number of pumps in attendance					float64	
+PumpCount					12020	1			Pump count							float64	
+PumpHoursRoundUp				12014	1			Time spent at incident by pumps, rounded up to nearest hour	float64	
+Notional Cost (£)				12014	328			Time spent multiplied by notional annual cost of a pump		float64
+NumCalls						1			Number of 999 calls made for an incident				int64
+
+
+
+StopCodeDescription
+AFA                                      5873
+Special Service                          3723
+False alarm - Good intent                1013
+Primary Fire                              794
+Secondary Fire                            463
+Flood call attended - Batch mobilised     164
+False alarm - Malicious                    66
+Chimney Fire                                1
+
+IncidentGroup
+False Alarm        6952
+Special Service    3887
+Fire               1258
+
+
+Custom functions for detecting outliers
+k nearest neighbours to fill missing values
+
+Please complete your modelling steps and send me a completed draft ASAP. EDA sepsico more content
+Please complete your modelling steps and send me a complete draft with all the exploratory data analysis
+If data point lies 3 standard deviation away from the mean, outlier
+If data skewed, use IQA
+Data is not skewed if skewness is < 1
+Encoding categorial columns into numerical
+
+
+
+
+Predictive modeling algorithms:
+
+* Random Forest: This is a popular algorithm for classification and regression tasks. It creates multiple decision trees and combines them to make more accurate predictions. You could use this algorithm to predict the number of pumps needed to attend an incident or the cost of an incident based on the variables in your dataset.
+
+* Linear Regression: This algorithm is useful for predicting numerical outcomes. You could use this algorithm to predict the time taken for the first pump to arrive on the scene based on variables such as the time of call or the type of property involved in the incident.
+
+Descriptive modeling algorithms:
+
+* K-Means Clustering: This algorithm is useful for grouping similar data points together based on their characteristics. You could use this algorithm to cluster incidents based on the property type or the incident category, and identify any patterns or trends that emerge.
+
+* Decision Tree: This algorithm is useful for visualizing the relationships between different variables in your dataset. You could use this algorithm to create a decision tree that shows the most important factors that contribute to the time taken for the first pump to arrive on the scene or the number of pumps needed to attend an incident.
+
+
+
+
+
+To identify the locations with the highest frequency of incidents, we could use the following columns:
+
+    Postcode_district: This column contains the district of the postcode of the incident. We can group the incidents by postcode district to identify the areas with the highest frequency of incidents.
+
+    IncGeo_WardCode: This column contains the ward code of the incident. We can group the incidents by ward code to identify the wards with the highest frequency of incidents.
+
+To analyze the reasons for this trend, we could use the following columns:
+
+    IncidentGroup: This column contains the group of the incident. We can use this column to identify the types of incidents that are more frequent in the areas with the highest frequency of incidents.
+
+    PropertyCategory and PropertyType: These columns contain information about the property involved in the incident. We can use these columns to identify if there is a higher frequency of incidents in specific types of properties.
+
+    StopCodeDescription: This column contains the stop code description of the incident. We can use this column to identify the reasons for the incidents and if there are any specific patterns in the areas with the highest frequency of incidents.
+
+
+
+
+
+
+
+
+
+

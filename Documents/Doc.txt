@@ -1,0 +1,72 @@
+1. Identify the most common types of incidents attended by LFB and their frequency in each year. 
+   This analysis could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents. 
+   Perform clustering analysis to identify the most common types of incidents attended by LFB and their frequency in each year. 
+   This could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents.
+Variables: Incident type, year, frequency of incidents
+Analysis: Cluster analysis to group similar incidents based on their frequency and years and identify the most common types of incidents attended by LFB.
+        	
+2. Analyze the response times of LFB and identify the factors that contribute to the delay in response. 
+   This analysis could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties. 
+   Perform regression analysis to identify the factors that contribute to the delay in response of LFB. 
+   This could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties.
+Variables: Response time, location, incident type, weather condition, time of day, number of firefighters deployed
+Analysis: Regression analysis to identify the factors that contribute to the delay in response of LFB
+        
+3. Identify the locations with the highest frequency of incidents and analyze the reasons for this trend. 
+   This analysis could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in 
+   these areas. 
+   Perform association rule mining to identify the locations with the highest frequency of incidents and analyze the reasons for this trend. 
+   This could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in these areas
+Variables: Incident location, incident type, weather condition, time of day, season
+Analysis: Association rule mining to identify the patterns and relationships between the variables and the frequency of incidents in different locations
+
+
+1. Identify the most common types of incidents attended by LFB and their frequency in each year. 
+   This analysis could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents. 
+   Perform clustering analysis to identify the most common types of incidents attended by LFB and their frequency in each year. 
+   This could help LFB to identify the areas where they need to focus more resources to reduce the frequency of these types of incidents.
+2. Analyze the response times of LFB and identify the factors that contribute to the delay in response. 
+   This analysis could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties. 
+   Perform regression analysis to identify the factors that contribute to the delay in response of LFB. 
+   This could help LFB to optimize their resources and reduce the response time, which could save lives and minimize damage to properties.
+3. Identify the locations with the highest frequency of incidents and analyze the reasons for this trend. 
+   This analysis could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in 
+   these areas. 
+   Perform association rule mining to identify the locations with the highest frequency of incidents and analyze the reasons for this trend. 
+   This could help LFB to take proactive measures to prevent such incidents in the future, for example, by increasing fire safety awareness or conducting safety inspections in these areas
+
+
+
+
+ Number 1: Done
+ Number 2: Cleaning & transformation, execute, figures, evaluation -> FirstPumpArriving_AttendanceTime(float64), IncGeo_WardName(object), IncidentGroup(object), time of day from DatetimeOfCall(datetime64[ns]), FirstPumpArriving_DeployedFromStation(object)
+ Number 3: Cleaning & transformation, execute, figures, evaluation
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1. Business Understanding and Data Understanding: Exceptionally clear and concise analysis of business concerns and relevant data mining tasks. Excellent and creative initial data exploration with effective means.
+
+2. Data Pre-processing: Thorough and extensive consideration of data quality issues. Appropriate approaches adopted with Exceptionally clear understanding. Excellent use of the relevant Python packages.
+
+3. Model Construction: Appropriate algorithms employed with Exceptionally clear outstanding understanding. Modelling with excellent working knowledge of the relevant Python packages.
+
+4. Model Evaluation: Exceptionally thorough and clear model interpretation and comparison with regards to business concerns. Excellent and meaningful models/patterns created.
+
+5. Report: Exceptionally clear and concise summary of project findings. May raise questions for future research. Exceptional outstanding presentation. Clear structure and layout.
